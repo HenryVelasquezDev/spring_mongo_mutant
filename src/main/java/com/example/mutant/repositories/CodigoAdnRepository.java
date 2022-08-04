@@ -10,6 +10,7 @@ import com.example.mutant.models.CodigoAdnModel;
 @Repository
 public interface CodigoAdnRepository extends MongoRepository<CodigoAdnModel, String> {
 	
+	//aregando otro comentario
 	List<CodigoAdnModel> findByDna(String dna);
 	List<CodigoAdnModel> findByMutante(Boolean mutante);
 }
