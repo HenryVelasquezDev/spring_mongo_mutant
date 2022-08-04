@@ -29,7 +29,8 @@ public class CodigoAdnController {
     }*/
     
     @PostMapping(path = "/mutant")
-    public CodigoAdnModel validarMutante(@RequestBody MutanteDnaDTO mutanteAdn) {   
+    public CodigoAdnModel validarMutante(@RequestBody MutanteDnaDTO mutanteAdn) {  
+    	//agregando comentario
     	return codigoAdnService.validarRegistrarMutante( mutanteAdn );
     }
     
