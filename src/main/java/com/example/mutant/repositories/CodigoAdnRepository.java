@@ -12,5 +12,6 @@ public interface CodigoAdnRepository extends MongoRepository<CodigoAdnModel, Str
 	
 	//aregando otro comentario
 	List<CodigoAdnModel> findByDna(String dna);
+	//aregando otro comentario
 	List<CodigoAdnModel> findByMutante(Boolean mutante);
 }
