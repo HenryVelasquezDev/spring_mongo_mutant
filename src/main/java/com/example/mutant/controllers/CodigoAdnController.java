@@ -31,7 +31,7 @@ public class CodigoAdnController {
     @PostMapping(path = "/mutant")
     public CodigoAdnModel validarMutante(@RequestBody MutanteDnaDTO mutanteAdn) {  
     	//agregando comentario
-    	//agregando otro comentario
+    	//agregando comentario
     	return codigoAdnService.validarRegistrarMutante( mutanteAdn );
     }
     
