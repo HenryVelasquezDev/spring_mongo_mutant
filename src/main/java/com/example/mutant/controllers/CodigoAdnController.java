@@ -32,7 +32,9 @@ public class CodigoAdnController {
     public CodigoAdnModel validarMutante(@RequestBody MutanteDnaDTO mutanteAdn) {  
     	//agregando comentario
     	//agregando comentario
+    	//Se agrega segunda funcionalidad
     	return codigoAdnService.validarRegistrarMutante( mutanteAdn );
+    	
     }
     
     @GetMapping(path = "/stats")
